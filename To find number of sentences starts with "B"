@@ -6,14 +6,11 @@ A bird in the hand. ...
 Better safe than sorry. ...
 An apple a day keeps doctor away. ...
 Blood is thicker than water. ...'''
-
 lines = text.split('\n')
 total_lines = len(lines)
 count_b = 0
-
 for line in lines:
     if line.strip().startswith('B'):
         count_b += 1
-
 print("Total number of lines:", total_lines)
 print("Number of Sentences that start with letter B :", count_b)
