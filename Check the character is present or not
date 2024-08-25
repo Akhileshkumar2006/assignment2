@@ -1,11 +1,11 @@
 string = input("Enter the string: ")
-char_to_search = input("Enter the character to be searched: ")
+char= input("Enter the character to be searched: ")
 index = -1
 for i in range(len(string)):
-    if string[i] == char_to_search:
+    if string[i] == char:
         index = i
         break
 if index != -1:
-    print(f"{char_to_search} is found in string at index: {index}")
+    print(f"{char} is found in string at index: {index}")
 else:
-    print(f"{char_to_search} is not found in the string.")
+    print(f"{char} is not found in the string.")
